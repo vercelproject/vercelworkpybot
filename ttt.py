@@ -1,8 +1,4 @@
-import time
-from pstats import Stats
-from audioop import reverse
-from msilib.schema import Error
-from telethon import TelegramClient, sync
+from telethon import TelegramClient
 from telethon import TelegramClient, events
 from datetime import datetime
 from datetime import timedelta
@@ -68,7 +64,6 @@ async def startCount():
 
     chats = client.get_dialogs
     messages = await client.get_messages('Data', limit=200, reverse = False)
-    print('mes')
     messages.reverse()
     for message in messages:
         date = message.date + timedelta(hours=3)

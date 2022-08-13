@@ -1,6 +1,2 @@
-pstats
-audioop
 telethon
 datetime
-msilib.schema
-time
