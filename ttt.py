@@ -67,7 +67,7 @@ async def startCount():
     messages = await client.get_messages('Data', limit=200, reverse = False)
     messages.reverse()
     for message in messages:
-        date = message.date - timedelta(hours=4)
+        date = message.date - timedelta(hours=3)
         text = message.text.replace("*", "")
 
         if date.day == datetime.now().day:    
