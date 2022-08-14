@@ -2,6 +2,7 @@ from telethon import TelegramClient
 from telethon import TelegramClient, events
 from datetime import datetime
 from datetime import timedelta
+import time
 
 token='5429424084:AAFtRnWXgwYCQoEbZYW5sp50arZUStFYzPI'
 api_id = 16364839
@@ -66,7 +67,7 @@ async def startCount():
     messages = await client.get_messages('Data', limit=200, reverse = False)
     messages.reverse()
     for message in messages:
-        date = message.date + timedelta(hours=3)
+        date = message.date + timedelta(hours=11)
         text = message.text.replace("*", "")
 
         if date.day == datetime.now().day:    
