@@ -82,9 +82,9 @@ async def start(event):
     await event.respond(str(Maksym) + ' М')
     await event.respond(str(Tanya) + ' Т')
     await event.respond(str(Yurii) + ' С')
+    await event.respond(str(YurikJr) + ' Ю')
     await event.respond(str(Galya) + ' Г')
     await event.respond(str(Vitalii) + ' В')
-    await event.respond(str(YurikJr) + ' Ю')
 
 
 
