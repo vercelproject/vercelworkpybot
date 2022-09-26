@@ -96,6 +96,7 @@ if __name__ == '__main__':
 
 
 
+
 print(str(YurikJr) + ' Ю    ',str(Tanya) +' Т    ', str(Vitalii) + ' В    ', str(Maksym) + ' М    ', str(Galya) + ' Г    ', str(Yurii) + ' С    ')
 messages = ["Hello i am working"]
 print(messages)
