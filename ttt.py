@@ -65,6 +65,7 @@ async def startCount():
 
     chats = client.get_dialogs
     messages = await client.get_messages('Data', limit=200, reverse = False)
+    print("mes")
     messages.reverse()
     for message in messages:
         date = message.date + timedelta(hours=3)
@@ -85,7 +86,6 @@ async def start(event):
     await event.respond(str(YurikJr) + ' Ю')
     await event.respond(str(Galya) + ' Г')
     await event.respond(str(Vitalii) + ' В')
-
 
 
     
