@@ -9,7 +9,7 @@ api_id = 16364839
 api_hash = '437dccac05784e2236b0e541a54cd5be'
 chat_id = '1741415210'
 chat = 'Data'
-
+ 
 YurikJr = 0
 Tanya = 0
 Vitalii = 0
