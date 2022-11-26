@@ -68,7 +68,7 @@ async def startCount():
     print("mes")
     messages.reverse()
     for message in messages:
-        date = message.date + timedelta(hours=3)
+        date = message.date + timedelta(hours=2)
         text = message.text.replace("*", "")
 
         if date.day == datetime.now().day:    
