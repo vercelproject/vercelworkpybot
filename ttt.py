@@ -18,6 +18,7 @@ Galya = 0
 Yurii = 0
 prevNum = 0
 
+
 bot=TelegramClient('bot', api_id, api_hash).start(bot_token=token)
 client = TelegramClient('seion_name', api_id, api_hash)
 client.start()
